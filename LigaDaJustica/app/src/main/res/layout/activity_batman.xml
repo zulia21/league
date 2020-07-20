@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="586dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="268dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="179dp"
+                android:layout_height="226dp"
+                android:contentDescription="@string/minibat"
+                android:paddingTop="50dp"
+                app:srcCompat="@drawable/batzin" />
+
+            <TextView
+                android:id="@+id/txtbat"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:ems="11"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/txtbat"
+                android:paddingStart="250dp"
+                android:paddingTop="80dp"
+                android:paddingEnd="80dp" />
+
+            <TextView
+                android:id="@+id/txtnome"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:ems="12"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/nome"
+                android:paddingStart="200dp"
+                android:paddingTop="150dp" />
+
+            <TextView
+                android:id="@+id/txtespecie"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:ems="12"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/especie"
+                android:paddingStart="200dp"
+                android:paddingTop="210dp" />
+
+            <TextView
+                android:id="@+id/txtcodigo"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:ems="12"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/codigo"
+                android:paddingStart="200dp"
+                android:paddingTop="240dp" />
+
+            <TextView
+                android:id="@+id/txtcodinome"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:ems="12"
+                android:fontFamily="@font/alfa_slab_one"
+                android:hint="@string/codinome"
+                android:paddingStart="200dp"
+                android:paddingTop="180dp" />
+
+            <TextView
+                android:id="@+id/txtbatname"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="97dp" />
+
+            <TextView
+                android:id="@+id/txtcodinomebat"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="65dp" />
+
+            <TextView
+                android:id="@+id/txtbatespecie"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="34dp" />
+
+            <TextView
+                android:id="@+id/txtcodbat"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="7dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txthabilidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:hint="@string/habilidades"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:id="@+id/txthabilbat"
+            android:layout_width="394dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="50dp" />
+
+        <TextView
+            android:id="@+id/txtvulnerabilidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:hint="@string/vulnerabilidades"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtvulnbat"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="50dp" />
+
+        <TextView
+            android:id="@+id/txthabilidade3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alfa_slab_one"
+            android:hint="@string/equipamentos"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtequipbat"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="7dp"
+            android:paddingLeft="50dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
