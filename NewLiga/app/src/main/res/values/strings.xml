@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">NewLiga</string>
+    <string name="batuser"> BatUser </string>
+    <string-array name="spinheroes">
+        <item> </item>
+        <item> Batman </item>
+        <item> Aquaman </item>
+        <item> Mulher-Maravilha </item>
+        <item> Flash </item>
+
+    </string-array>
+    <string name="btngogo"> Consultar </string>
+    <string name="minibat"> minibat </string>
+    <string name="txtbat"> BATMAN </string>
+    <string name="nome"> Nome </string>
+    <string name="codinome"> Codinome </string>
+    <string name="codigo"> Código </string>
+    <string name="Nível"> Nivel de Acesso </string>
+    <string name="especie"> Espécie </string>
+    <string name="habilidades"> Habilidades </string>
+    <string name="vulnerabilidades"> Vulnerabilidades </string>
+    <string name="equipamentos"> Equipamentos </string>
+    <string name="robin"> AQUAMAN </string>
+    <string name="wonder"> MULHER <br></br>MARAVILHA </string>
+    <string name="flash"> FLASH </string>
+</resources>
